@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+
+h1 {
+  position: static;
+  font-size: 50px;
+  font-family: 'Nanum Brush Script', cursive, serif;
+  text-align: center;
+  color: white;
+}
+
+.home {
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
+ul{
+    list-style-type: nane;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 60px;
+    font-family: 'Nanum Brush Script', cursive, serif;
+    
+}
+li{
+    display: inline;
+    color: white;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: dimgrey;
+}
+a:visited{
+    color: white;
+}
+details{
+    color: white;
+    position: static;
+    top: 70px;
+}
+.month{
+    width: 30px;
+    height: 20px;
+    color: antiquewhite;
+}
+table{
+    width: auto;
+    height: 400px;
+}
+th{
+    height: 20px;
+}
+td{
+    font-size: x-small;
+    width: 80px;
+}
+
+table,th,td{
+    border: 1px solid gray;
+}

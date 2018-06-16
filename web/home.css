@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+#main-top {
+  font-family: 'Nanum Brush Script', cursive, serif;
+  font-size : 50px;
+  margin : 10px;
+  position : static;
+}
+h3{
+    margin: 0px;
+    position: fixed;
+    top:0px;
+    right:10px;
+}
+ul{
+    list-style-type: nane;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 60px;
+    font-family: 'Nanum Brush Script', cursive, serif;
+    
+}
+li{
+    display: inline;
+    color: white;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.top{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    font-size: 30px;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: dimgrey;
+}
+a:visited{
+    color: white;
+}
